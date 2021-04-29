@@ -1,6 +1,6 @@
 package hu.nive.ujratervezes.adddigits;
 
-public class AddDigits {
+class AddDigits {
     int addDigits(String input) {
 
         if (input == null || input.equals("")) {
