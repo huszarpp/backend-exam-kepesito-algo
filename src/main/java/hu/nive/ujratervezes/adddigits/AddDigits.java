@@ -10,7 +10,7 @@ public class AddDigits {
         int sumOfDigits = 0;
         for (char c : input.toCharArray()) {
             int intValueOfCurrentDigit = c - '0';
-            if (0 <= intValueOfCurrentDigit && intValueOfCurrentDigit <= 10) {
+            if (0 <= intValueOfCurrentDigit && intValueOfCurrentDigit <= 9) {
                 sumOfDigits += intValueOfCurrentDigit;
             }
         }
